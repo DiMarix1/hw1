@@ -1,5 +1,5 @@
 <?php
-$forecastKey = "eRzOUAGG87J6ainXjANtAYpp7OuK9aXr";
+$forecastKey = "XXXXXXXXXXXXXXXX";
 
 if(isset($_GET['city'])){
     $city = urlencode($_GET['city']);

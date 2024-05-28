@@ -1,6 +1,6 @@
 <?php
- $appId = "5263fc2a7e644de1b98d43e7df43ce13";
- $appSecret = "1ad470fcbc7f4a9b8c3bbfb9a9111b12";
+ $appId = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+ $appSecret = "XXXXXXXXXXXXXXXX";
 
  header('Content-Type: application/json');
 

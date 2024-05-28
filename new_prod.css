@@ -1,0 +1,45 @@
+@font-face {
+    font-family: NespressoLucas;
+    src: url(https://www.nespresso.com/_ui/fonts/Nespresso_Lucas/Regular/NespressoLucas-Regular.woff)
+       format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+ }
+
+
+ body{
+    font-family: NespressoLucas;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+  
+ label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.success{
+   color: green;
+}
+
+.hidden{
+   display: none;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 0px 5px;
+}
+
+a:hover{
+   background-color: #3d87055e;
+   text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    display: flex;
+
+  }
+  
+  p {
+    margin: 0.3em;
+    width: 500px;
+  }
+  
+  .error{
+    font-weight: bold;
+    color: red;
+    display: none;
+  }
+
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input {
+    margin-left: 0.5em;
+  }
+
+  .show{
+    display: inline;
+  }

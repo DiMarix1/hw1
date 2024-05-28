@@ -1,0 +1,67 @@
+@font-face {
+    font-family: NespressoLucas;
+    src: url(https://www.nespresso.com/_ui/fonts/Nespresso_Lucas/Regular/NespressoLucas-Regular.woff)
+       format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+ }
+ 
+ html{
+    font-family: NespressoLucas;
+ }
+
+ #show{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+ img{
+    width: 200px;
+ }
+
+ .cart_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding: 5px;
+    background-color: aliceblue;
+ }
+
+#shop{
+   text-decoration: none;
+   color: #3d8705; 
+   background-color: beige;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 0px 5px;
+}
+
+#total{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-color: beige;
+   border: 1px solid black;
+   border-radius: 5px; */
+}
+
+#total p{
+   background-color: beige;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 0px 5px;
+}
+
+.nouser{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 150px;
+}
